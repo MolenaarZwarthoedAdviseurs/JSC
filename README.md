@@ -43,6 +43,18 @@ De repository bevat `vercel.json`, zodat Vercel expliciet weet hoe de PWA gebouw
 
 Koppel de GitHub-repository in Vercel aan een nieuw project. Daarna publiceert Vercel automatisch elke nieuwe push naar `main`.
 
+## Live via Netlify
+
+De app staat live op:
+
+https://jsc-toptraining.netlify.app
+
+Netlify gebruikt `netlify.toml` voor de build:
+
+- Build command: `npm run build`
+- Publish directory: `dist`
+- Redirect fallback: `/*` naar `/index.html`
+
 ## Bronnen
 
 - `Lijst Personal Workout fitness oefeningen nummers.doc`
