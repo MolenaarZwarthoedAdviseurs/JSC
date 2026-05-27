@@ -32,6 +32,17 @@ Publiceer de inhoud via een HTTPS-host zoals GitHub Pages, Netlify of Vercel. Da
 
 In deze repository staat ook een GitHub Pages-workflow. Elke push naar `main` voert de datacontrole uit, bouwt de app en publiceert de inhoud van `dist`.
 
+## Publiceren via Vercel
+
+De repository bevat `vercel.json`, zodat Vercel expliciet weet hoe de PWA gebouwd moet worden:
+
+- Framework: Vite
+- Install command: `npm install`
+- Build command: `npm run build`
+- Output directory: `dist`
+
+Koppel de GitHub-repository in Vercel aan een nieuw project. Daarna publiceert Vercel automatisch elke nieuwe push naar `main`.
+
 ## Bronnen
 
 - `Lijst Personal Workout fitness oefeningen nummers.doc`
