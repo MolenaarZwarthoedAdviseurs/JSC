@@ -1,0 +1,1 @@
+export const SOURCE_META = {"exerciseSource":"Lijst Personal Workout fitness oefeningen nummers.doc","calculationSource":"Schema Martijn Kerssens .xlsx","exerciseCount":273,"reviewCount":20,"generatedFor":"JSC PWA"};
